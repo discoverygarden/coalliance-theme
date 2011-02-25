@@ -1,0 +1,15 @@
+; $Id: interactive_media.info,v 1.1 2008/04/23 16:49:55 hswong3i Exp $
+name = UofM 2
+description = Tableless, multi-column, fluid width theme.
+version = VERSION
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[all][] = custom.css
+
+; Information added by drupal.org packaging script on 2009-12-17
+version = "6.x-1.12"
+core = "6.x"
+project = "uofm2"
+datestamp = "1261079453"
+

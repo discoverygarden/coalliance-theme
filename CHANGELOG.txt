@@ -1,0 +1,178 @@
+// $Id: CHANGELOG.txt,v 1.1.1.1.4.69 2009/12/17 19:47:00 hswong3i Exp $
+
+Interactive Media 6.x-1.12, 2009-12-18
+----------------------
+- update README.txt.
+
+Interactive Media 6.x-1.11, 2009-05-14
+----------------------
+- better visibility for visited links.
+- new custom style for print.module.
+- header logo's div compatibility hack for IE8.
+- [#344551]: fix primary links disconnected within small screen size.
+- revamp primary links handling, clone from garland.
+- [#359498]: document example about howto change the sidebar width.
+- document more information about custom.css and custom.example.css.
+- simplify custom theme function implementation, clone from garland.
+
+Interactive Media 6.x-1.10, 2008-11-23
+----------------------
+- add @ingroup for custom.example.css, better documentation.
+- update README.txt.
+- better comment message.
+- [#314124]: fix profile picture alignment.
+- [#337338]: use '$front_page' instead of $base_path in page.tpl.php
+
+Interactive Media 6.x-1.9, 2008-08-17
+----------------------
+- revamp primary links, better style and comment.
+- add more clipart, sync with MediaWiki theme development.
+- better h1/h2/etc styling for page layout arragement.
+- [#262772]: fix truncated sitename in IE6/7.
+- renew screenshot-drupal.org.png.
+
+Interactive Media 6.x-1.8, 2008-06-19
+----------------------
+- simplify pencil link implementation.
+
+Interactive Media 6.x-1.7, 2008-06-16
+----------------------
+- minor bugfix.
+- CSS syntax cleanup.
+- [#268850]: fix pencil link for Clear URL.
+- add .meta-header and .meta-footer, with different styling.
+- update large screenshot.
+- update custom.example.css.
+
+Interactive Media 6.x-1.6, 2008-05-26
+----------------------
+- add styling for tagadelic.module.
+- add admin style, clone from garland.
+- update large screenshot.
+- reposition code layout, clone from garland.
+- revamp page region handling, clone from garland.
+
+Interactive Media 6.x-1.5, 2008-05-10
+----------------------
+- add a lot of fancy icons for meta data.
+- update screenshots.
+- better meta date style with height and line-height.
+
+Interactive Media 6.x-1.4, 2008-05-07
+----------------------
+- add placeholders for IE6 fix.
+- update document.
+- update screenshots.
+- bugfix fluid width layout, if override as fixed width in custom.css.
+- bugfix fixed width example in custom.example.css.
+- bugfix fluid width layout for IE6.
+- bugfix background images for IE6.
+- bugfix height and line-height for breadcrumb and block title.
+
+Interactive Media 6.x-1.3, 2008-05-01
+----------------------
+- different hx.title sizing.
+
+Interactive Media 6.x-1.2, 2008-04-28
+----------------------
+- better small screen layout.
+- bugfix fluid width latout.
+
+Interactive Media 6.x-1.1, 2008-04-27
+----------------------
+- bugfix fluid width layout in case of small screen.
+- bugfix breadcrumb region as always preserve area.
+- update custom.example.css.
+
+Interactive Media 6.x-1.0, 2008-04-26
+----------------------
+- better admin/build/block style.
+- fix footer region location.
+- tricky hack: don't display header-region if empty, fix buggy IE7 display.
+
+Interactive Media 6.x-1.0-rc3, 2008-04-25
+----------------------
+- bugfix content title styling if no sidebar.
+- better regional handling, clone from garland.
+- revamp background images.
+- better LTR and RTL CSS coding.
+
+Interactive Media 6.x-1.0-rc2, 2008-04-24
+----------------------
+- add experimental RTL support. tested with FF3, Opera9.2 and IE7 (thanks for Zohar).
+- coding style cleanup.
+
+Interactive Media 6.x-1.0-rc1, 2008-04-24
+----------------------
+- initial RC release.
+- re-implementation of http://www.solucija.com/templates/demo/Interactive_Media/
+- style port from http://drupal.org/project/contented7/ and http://drupal.org/project/internet_services/
+- tableless, multi-column, fluid width layout.
+- can customize layout with custom.css.
+- CHANGE: change a and a:hover style.
+- CHANGE: add logo, breadcrumb, ul/li style, meta style, comment/node/sticky style.
+- TODO: better header region.
+- TODO: RTL support.
+- TODO: color.module support.
+
+Interactive Media 5.x-1.11, 2009-12-18
+----------------------
+- update README.txt.
+
+Interactive Media 5.x-1.10, 2008-11-23
+----------------------
+- sync with 6.x-1.x-dev.
+- this should be the last stable release for Drupal 5.x.
+
+Interactive Media 5.x-1.9, 2008-08-17
+----------------------
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.8, 2008-06-19
+----------------------
+- clone D6 $body_classes, so share style.css with D6.
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.7, 2008-06-16
+----------------------
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.6, 2008-05-26
+----------------------
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.5, 2008-05-10
+----------------------
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.4, 2008-05-07
+----------------------
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.3, 2008-05-01
+----------------------
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.2, 2008-04-28
+----------------------
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.1, 2008-04-27
+----------------------
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.0, 2008-04-26
+----------------------
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.0-rc3, 2008-04-25
+----------------------
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.0-rc2, 2008-04-24
+----------------------
+- sync with 6.x-1.x-dev.
+
+Interactive Media 5.x-1.0-rc1, 2008-04-24
+----------------------
+- sync with 6.x-1.x-dev.
