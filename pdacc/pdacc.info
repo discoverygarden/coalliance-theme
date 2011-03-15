@@ -2,7 +2,7 @@
 
 
   ; The name and description of the theme used on the admin/build/themes page.
-name        = Coalliance - p-dacc
+name        = Coalliance - pdacc
 description = This is a table-less fixed-width Zen sub-sub-theme based on coalliance.  
 
   ; The screenshot used on the admin/build/themes page.
@@ -48,7 +48,7 @@ base theme = coalliance
 ; stylesheets[all][]   = css/fields.css
 ; stylesheets[print][] = css/print.css
 ; stylesheets[all][]   = css/superfish.css
-stylesheets[all][]   = css/p-dacc.css
+stylesheets[all][]   = css/pdacc.css
 ; stylesheets[all][]   = css/elegant.css
 ; stylesheets[all][]   = css/islandvoices.css
 ; stylesheets[all][]   = css/designer.css

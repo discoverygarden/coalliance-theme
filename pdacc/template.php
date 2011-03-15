@@ -21,13 +21,13 @@
  *   this, we have to override the theme function. You have to first find the
  *   theme function that generates the output, and then "catch" it and modify it
  *   here. The easiest way to do it is to copy the original function in its
- *   entirety and paste it here, changing the prefix from theme_ to p-dacc_.
+ *   entirety and paste it here, changing the prefix from theme_ to pdacc_.
  *   For example:
  *
  *     original: theme_breadcrumb()
- *     theme override: p-dacc_breadcrumb()
+ *     theme override: pdacc_breadcrumb()
  *
- *   where p-dacc is the name of your sub-theme. For example, the
+ *   where pdacc is the name of your sub-theme. For example, the
  *   zen_classic theme would define a zen_classic_breadcrumb() function.
  *
  *   If you would like to override any of the theme functions used in Zen core,
@@ -39,7 +39,7 @@
  *   For more information, please visit the Theme Developer's Guide on
  *   Drupal.org: http://drupal.org/node/173880
  *
- * CREATE OR MODIFY VARIABLES FOR YOUR THEME
+ * CREATE OR MODIFY VARIABLES FOR YOUR THEMEpdacc
  *
  *   Each tpl.php template file has several variables which hold various pieces
  *   of content. You can modify those variables (or add new ones) before they
@@ -66,8 +66,8 @@
 /**
  * Implementation of HOOK_theme().
  */
-function p-dacc_theme(&$existing, $type, $theme, $path) {
-  $hooks = vretheme_theme($existing, $type, $theme, $path);
+function pdacc_theme(&$existing, $type, $theme, $path) {
+  $hooks = coalliance_theme($existing, $type, $theme, $path);
   // Add your theme hooks like this:
   /*
   $hooks['hook_name_here'] = array( // Details go here );
@@ -85,7 +85,7 @@ function p-dacc_theme(&$existing, $type, $theme, $path) {
  *   The name of the template being rendered (name of the .tpl.php file.)
  */
 /* -- Delete this line if you want to use this function
-function p-dacc_preprocess(&$vars, $hook) {
+function pdacc_preprocess(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -99,7 +99,7 @@ function p-dacc_preprocess(&$vars, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function p-dacc_preprocess_page(&$vars, $hook) {
+function pdacc_preprocess_page(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -113,11 +113,11 @@ function p-dacc_preprocess_page(&$vars, $hook) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function p-dacc_preprocess_node(&$vars, $hook) {
+function pdacc_preprocess_node(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 
   // Optionally, run node-type-specific preprocess functions, like
-  // p-dacc_preprocess_node_page() or p-dacc_preprocess_node_story().
+  // pdacc_preprocess_node_page() or pdacc_preprocess_node_story().
   $function = __FUNCTION__ . '_' . $vars['node']->type;
   if (function_exists($function)) {
     $function($vars, $hook);
@@ -134,7 +134,7 @@ function p-dacc_preprocess_node(&$vars, $hook) {
  *   The name of the template being rendered ("comment" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function p-dacc_preprocess_comment(&$vars, $hook) {
+function pdacc_preprocess_comment(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -148,7 +148,7 @@ function p-dacc_preprocess_comment(&$vars, $hook) {
  *   The name of the template being rendered ("block" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function p-dacc_preprocess_block(&$vars, $hook) {
+function pdacc_preprocess_block(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
