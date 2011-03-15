@@ -1,0 +1,62 @@
+#headercontent-inner {
+background: url(../images/unc-header-002e5f.png) 0 0 transparent;
+
+}
+
+#headercontent-wrapper .section {
+margin-bottom: 2px;
+border-bottom: 1px solid #B8B6B8;
+}
+
+#navbar-wrapper {
+background: url(../images/unc-navbar-right-ecac00.png) repeat-x 0 0 #B8B6B8;
+height: 27px;
+border-bottom: 1px solid #B8B6B8;
+}
+
+#navbar-wrapper .column.NavbarLeft {
+background: url("../images/unc-navbar-left-e6e7e8.png") repeat-x scroll 0 0 transparent;
+height: 27px
+}
+
+/* hover and active-trail color */ 
+#nav ul.menu  li.active-trail,
+#nav ul.menu  li:hover, 
+#nav .menu li li:hover, 
+#nav .menu li li li:hover,
+#superfish ul.menu  li.active-trail,
+#superfish ul.menu  li:hover, 
+#superfish .menu li li:hover, 
+#superfish .menu li li li:hover {
+        background: url(../images/unc-nav-hv-002e5f.png) repeat-x 0 0 transparent;
+
+}
+
+
+#navbar-wrapper a:hover{
+
+}
+
+#topbar-wrapper {
+}
+
+#header .section {
+}
+
+#sitecontent-wrapper {
+}
+
+#feature-wrapper .section {
+background: #e6e7e8;
+}
+
+.front #feature-wrapper .region {
+height: 282px;
+}
+
+.front #feature-wrapper .FeatureFirst .block {
+    height: 95%;
+    margin: 10px;
+    border: 2px solid #cecece;
+    background: url(../images/unc-feature-e6e7e8.png) repeat-x 0 0 transparent;
+}
