@@ -1,5 +1,10 @@
+#headercontent-wrapper .HeaderLeft {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
 #headercontent-inner {
-background: url(../images/unc-header-002e5f.png) 0 0 transparent;
+background: url(../images/header.png) 0 0 transparent;
 
 }
 
@@ -9,13 +14,13 @@ border-bottom: 1px solid #B8B6B8;
 }
 
 #navbar-wrapper {
-background: url(../images/unc-navbar-right-ecac00.png) repeat-x 0 0 #B8B6B8;
+background: url(../images/navbar-right.png) repeat-x 0 0 #B8B6B8;
 height: 27px;
 border-bottom: 1px solid #B8B6B8;
 }
 
 #navbar-wrapper .column.NavbarLeft {
-background: url("../images/unc-navbar-left-e6e7e8.png") repeat-x scroll 0 0 transparent;
+background: url("../images/navbar-left.png") repeat-x scroll 0 0 transparent;
 height: 27px
 }
 
@@ -28,8 +33,7 @@ height: 27px
 #superfish ul.menu  li:hover, 
 #superfish .menu li li:hover, 
 #superfish .menu li li li:hover {
-        background: url(../images/unc-nav-hv-002e5f.png) repeat-x 0 0 transparent;
-
+        background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
 }
 
 
@@ -58,5 +62,5 @@ height: 282px;
     height: 95%;
     margin: 10px;
     border: 2px solid #cecece;
-    background: url(../images/unc-feature-e6e7e8.png) repeat-x 0 0 transparent;
+    background: url(../images/feature.png) repeat-x 0 0 transparent;
 }
