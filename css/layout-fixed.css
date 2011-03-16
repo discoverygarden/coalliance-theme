@@ -96,25 +96,25 @@ color: 000;
 }
 
 .sidebar-first #content {
-  width: 760px;
-  margin-left: 200px; /* LTR */ /* The width of .region-sidebar-first. */
+  width: 740px;
+  margin-left: 220px; /* LTR */ /* The width of .region-sidebar-first. */
   margin-right: -960px; /* LTR */ /* Negative value of #content's width + left margin. */
 }
 
 .sidebar-second #content {
-  width: 760px;
+  width: 740px;
   margin-left: 0; /* LTR */
-  margin-right: -760px; /* LTR */ /* Negative value of #content's width + left margin. */
+  margin-right: -740px; /* LTR */ /* Negative value of #content's width + left margin. */
 }
 
 .two-sidebars #content {
-  width: 560px;
-  margin-left: 200px; /* LTR */ /* The width of .region-sidebar-first */
+  width: 520px;
+  margin-left: 220px; /* LTR */ /* The width of .region-sidebar-first */
   margin-right: -760px; /* LTR */ /* Negative value of #content's width + left margin. */
 }
 
 #content .section {
-margin: 0px 0px 10px 0px;
+margin: 10px 0px 10px 0px;
 padding:0;
 }
 
@@ -231,15 +231,15 @@ margin: 0;
  */
 .region-sidebar-first {
   float: left; /* LTR */
-  width: 200px;
+  width: 220px;
   margin-left: 0; /* LTR */
-  margin-right: -200px; /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
+  margin-right: -220px; /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-first .section. */
 }
 
 .region-sidebar-first .section {
-margin:10px 10px 10px 0px;
-padding:0;
+margin:10px 20px 10px 0px;
+padding: 0;
 }
 
 /*
@@ -247,14 +247,14 @@ padding:0;
  */
 .region-sidebar-second {
   float: left; /* LTR */
-  width: 200px;
-  margin-left: 760px; /* LTR */ /* Width of content + sidebar-first. */
+  width: 220px;
+  margin-left: 740px; /* LTR */ /* Width of content + sidebar-first. */
   margin-right: -960px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
 }
 
 .region-sidebar-second .section {
-  margin:10px 0px 10px 10px; /* LTR */
+  margin:10px 0px 10px 20px; /* LTR */
   padding: 0;
 }
 

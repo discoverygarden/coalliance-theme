@@ -10,11 +10,13 @@ border-bottom: 1px solid #B8B6B8;
 }
 
 #site-name {
-    line-height: 80%;
+line-height: 80%;
+font-size: 170%;
 }
 
 #site-slogan {
 margin-top: -3px;
+font-size: 120%;
 }
 
 #header {
@@ -22,16 +24,16 @@ color: #161616;
 }
 
 #header a:link {
-    color: #161616;
+    color: #5a0000;
 }
 #header a:visited {
-    color: #161616;
+    color: #5a0000;
 }
 #header a:hover, #header a:focus {
-    color: #161616;
+    color: #5a0000;
 }
 #header a:active {
-    color: #161616;
+    color: #5a0000;
 }
 
 /* Navbar */
@@ -58,8 +60,8 @@ height: 27px
         background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
 }
 
-#navigation {
-color: #fff;
+#navigation .NavbarLeft {
+color: #000;
 }
 
 #navigation .section {
@@ -67,17 +69,16 @@ color: #fff;
 }
 
 #navigation a:link {
-    color: #fff;
+    color: #FFFFE6;
 }
 #navigation a:visited {
-    color: #fff;
+    color: #FFFFE6;
 }
 #navigation a:hover, #header a:focus {
-    color: #161616;
+    color: #FFFFE6;
 }
 #navigation a.active {
-    color: #161616;
-    background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
+    color: #FFFFE6;
 }
 
 
@@ -95,12 +96,13 @@ height: 282px;
 .region-sidebar-second .block h2.title, 
 div.admin-panel h3,
 .whats-new h2.pane-title {
-background-color: #f7e59d;
-color: #292c33;
+background-color: #9c524a;
+color: #FFF;
 }
 
 .panel-panel .collection-list h2.pane-title {
-background-color: #292c33;
+background-color: #5a0000;
+color: #FFFFE6;
 }
 
 

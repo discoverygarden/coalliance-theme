@@ -10,28 +10,29 @@ border-bottom: 1px solid #B8B6B8;
 }
 
 #site-name {
-    line-height: 80%;
+    font-size: 160%;
+    line-height: 90%;
 }
 
 #site-slogan {
-margin-top: -3px;
+    font-size: 100%;
 }
 
 #header {
-color: #161616;
+color: #fff;
 }
 
 #header a:link {
-    color: #161616;
+    color: #fff;
 }
 #header a:visited {
-    color: #161616;
+    color: #fff;
 }
 #header a:hover, #header a:focus {
-    color: #161616;
+    color: #fff;
 }
 #header a:active {
-    color: #161616;
+    color: #fff;
 }
 
 /* Navbar */
@@ -44,7 +45,8 @@ border-bottom: 1px solid #B8B6B8;
 
 #navbar-wrapper .column.NavbarLeft {
 background: url(../images/navbar-left.png) repeat-x scroll 0 0 transparent;
-height: 27px
+height: 27px;
+color: #000;
 }
 
 #nav ul.menu  li.active-trail,
@@ -58,10 +60,6 @@ height: 27px
         background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
 }
 
-#navigation {
-color: #fff;
-}
-
 #navigation .section {
     line-height: 1em;
 }
@@ -73,11 +71,10 @@ color: #fff;
     color: #fff;
 }
 #navigation a:hover, #header a:focus {
-    color: #161616;
+    color: #fff;
 }
 #navigation a.active {
-    color: #161616;
-    background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
+    color: #fff;
 }
 
 
@@ -95,12 +92,13 @@ height: 282px;
 .region-sidebar-second .block h2.title, 
 div.admin-panel h3,
 .whats-new h2.pane-title {
-background-color: #f7e59d;
-color: #292c33;
+background-color: #002e5f;
+color: #FFF;
 }
 
 .panel-panel .collection-list h2.pane-title {
-background-color: #292c33;
+background-color: #ecac00;
+color: #fff;
 }
 
 
