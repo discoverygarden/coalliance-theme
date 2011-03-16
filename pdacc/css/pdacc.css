@@ -1,4 +1,4 @@
-
+/* Header */
 
 #headercontent-inner {
 background: url(../images/header.png) 0 0 transparent;
@@ -9,89 +9,16 @@ margin-bottom: 2px;
 border-bottom: 1px solid #B8B6B8;
 }
 
-#navbar-wrapper {
-background: url(../images/navbar-right.png) repeat-x 0 0 #B8B6B8;
-height: 27px;
-border-bottom: 1px solid #B8B6B8;
+#site-name {
+    line-height: 80%;
 }
 
-#navbar-wrapper .column.NavbarLeft {
-background: url(../images/navbar-left.png) repeat-x scroll 0 0 transparent;
-height: 27px
-}
-
-/* hover and active-trail color */ 
-#nav ul.menu  li.active-trail,
-#nav ul.menu  li:hover, 
-#nav .menu li li:hover, 
-#nav .menu li li li:hover,
-#superfish ul.menu  li.active-trail,
-#superfish ul.menu  li:hover, 
-#superfish .menu li li:hover, 
-#superfish .menu li li li:hover {
-        background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
-}
-
-
-#navbar-wrapper a:hover{
-
-}
-
-#topbar-wrapper {
-}
-
-#header .section {
-}
-
-#sitecontent-wrapper {
-}
-
-.front #feature-wrapper .region {
-height: 282px;
-}
-
-#feature-wrapper .section, .center-wrapper {
-background-color: #517801;
-}
-
-.front #feature-wrapper .FeatureFirst .block {
-    height: 95%;
-    margin: 10px;
-}
-
-.front #feature-wrapper .FeatureFirst .block, #homepage_intro {
-  background-image: url("../images/feature.png");
-  border: 2px solid #283b00;
-}
-
-.center-wrapper {
-    color: #222;
-}
-
-.whats-new h2.pane-title {
-background-color: #f7e59d;
-color: #292c33;
-}
-
-.panel-panel .collection-list h2.pane-title {
-background-color: #292c33;
-}
-
-#image_rotator div.imageRotator_pager a {
-    background-image: url("../images/rotator_pager_bg.png");
-    color: #f7e59d;
-}
-#image_rotator div.imageRotator_pager a.active {
-    background-image: url("../images/rotator_pager_active_bg.png");
-    color: #292c33;
+#site-slogan {
+margin-top: -3px;
 }
 
 #header {
 color: #161616;
-}
-
-#navigation {
-color: #fff;
 }
 
 #header a:link {
@@ -105,6 +32,38 @@ color: #fff;
 }
 #header a:active {
     color: #161616;
+}
+
+/* Navbar */
+
+#navbar-wrapper {
+background: url(../images/navbar-right.png) repeat-x 0 0 #B8B6B8;
+height: 27px;
+border-bottom: 1px solid #B8B6B8;
+}
+
+#navbar-wrapper .column.NavbarLeft {
+background: url(../images/navbar-left.png) repeat-x scroll 0 0 transparent;
+height: 27px
+}
+
+#nav ul.menu  li.active-trail,
+#nav ul.menu  li:hover, 
+#nav .menu li li:hover, 
+#nav .menu li li li:hover,
+#superfish ul.menu  li.active-trail,
+#superfish ul.menu  li:hover, 
+#superfish .menu li li:hover, 
+#superfish .menu li li li:hover {
+        background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
+}
+
+#navigation {
+color: #fff;
+}
+
+#navigation .section {
+    line-height: 1em;
 }
 
 #navigation a:link {
@@ -121,14 +80,23 @@ color: #fff;
 }
 
 
-#site-name {
-    line-height: 80%;
+/* Feature & Panels */
+
+.front #feature-wrapper .region {
+height: 282px;
 }
 
-#site-slogan {
-margin-top: -3px;
+.center-wrapper {
+    color: #222;
 }
 
-#navigation .section {
-    line-height: 1em;
+.whats-new h2.pane-title {
+background-color: #f7e59d;
+color: #292c33;
 }
+
+.panel-panel .collection-list h2.pane-title {
+background-color: #292c33;
+}
+
+
