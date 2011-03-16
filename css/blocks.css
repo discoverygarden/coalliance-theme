@@ -196,10 +196,18 @@ div.block.with-block-editing div.edit {
   background-color: #a5a5a5;
 }
 
+#header div.block.with-block-editing div.edit {
+display:none;
+}
+
 div.block.with-block-editing:hover div.edit {
   display: block;
 }
 
 div.block-book ul {
     margin: 0.15em 0 0.15em 0em;
+}
+
+#header h2.title {
+display: none;
 }

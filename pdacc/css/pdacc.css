@@ -1,11 +1,7 @@
-#headercontent-wrapper .HeaderLeft {
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
+
 
 #headercontent-inner {
 background: url(../images/header.png) 0 0 transparent;
-
 }
 
 #headercontent-wrapper .section {
@@ -20,7 +16,7 @@ border-bottom: 1px solid #B8B6B8;
 }
 
 #navbar-wrapper .column.NavbarLeft {
-background: url("../images/navbar-left.png") repeat-x scroll 0 0 transparent;
+background: url(../images/navbar-left.png) repeat-x scroll 0 0 transparent;
 height: 27px
 }
 
@@ -50,17 +46,89 @@ height: 27px
 #sitecontent-wrapper {
 }
 
-#feature-wrapper .section {
-background: #e6e7e8;
-}
-
 .front #feature-wrapper .region {
 height: 282px;
+}
+
+#feature-wrapper .section, .center-wrapper {
+background-color: #517801;
 }
 
 .front #feature-wrapper .FeatureFirst .block {
     height: 95%;
     margin: 10px;
-    border: 2px solid #cecece;
-    background: url(../images/feature.png) repeat-x 0 0 transparent;
+}
+
+.front #feature-wrapper .FeatureFirst .block, #homepage_intro {
+  background-image: url("../images/feature.png");
+  border: 2px solid #283b00;
+}
+
+.center-wrapper {
+    color: #222;
+}
+
+.whats-new h2.pane-title {
+background-color: #f7e59d;
+color: #292c33;
+}
+
+.panel-panel .collection-list h2.pane-title {
+background-color: #292c33;
+}
+
+#image_rotator div.imageRotator_pager a {
+    background-image: url("../images/rotator_pager_bg.png");
+    color: #f7e59d;
+}
+#image_rotator div.imageRotator_pager a.active {
+    background-image: url("../images/rotator_pager_active_bg.png");
+    color: #292c33;
+}
+
+#header {
+color: #161616;
+}
+
+#navigation {
+color: #fff;
+}
+
+#header a:link {
+    color: #161616;
+}
+#header a:visited {
+    color: #161616;
+}
+#header a:hover, #header a:focus {
+    color: #161616;
+}
+#header a:active {
+    color: #161616;
+}
+
+#navigation a:link {
+    color: #fff;
+}
+#navigation a:visited {
+    color: #fff;
+}
+#navigation a:hover, #header a:focus {
+    color: #161616;
+}
+#navigation a.active {
+    color: #161616;
+}
+
+
+#site-name {
+    line-height: 80%;
+}
+
+#site-slogan {
+margin-top: -3px;
+}
+
+#navigation .section {
+    line-height: 1em;
 }

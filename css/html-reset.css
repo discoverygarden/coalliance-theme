@@ -650,6 +650,11 @@ float: right
 float: left
 }
 
+#headercontent-wrapper .HeaderRight .menu {
+    clear:right;
+    margin-top: 4px;
+}
+
 #topbar ul, #headercontent-wrapper .HeaderRight {
 font-size: 10px;
 }
@@ -673,7 +678,7 @@ float: right;
 #topbar ul.menu li, #headercontent-wrapper ul.menu li {
     border-right: 1px solid #686C71;
     margin: 0;
-    padding: 0 0.4em 0 0.1em;
+    padding: 0 0.6em 0 0.2em;
 }
 #topbar ul.menu li.last, #headercontent-wrapper ul.menu li.last {
     border-right: 0 solid #000000;

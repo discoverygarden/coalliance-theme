@@ -2,7 +2,7 @@
 // $Id: theme-settings.php,v 1.7 2008/09/11 09:36:50 johnalbin Exp $
 
 // Include the definition of zen_settings() and zen_theme_get_default_settings().
-include_once './' . drupal_get_path('theme', 'vretheme') . '/theme-settings.php';
+include_once './' . drupal_get_path('theme', 'coalliance') . '/theme-settings.php';
 
 
 /**
@@ -35,7 +35,7 @@ function pdacc_settings($saved_settings) {
   // */
 
   // Add the base theme's settings.
-  $form += vretheme_settings($saved_settings, $defaults);
+  $form += coalliance_settings($saved_settings, $defaults);
 
   // Remove some of the base theme's settings.
   unset($form['themedev']['zen_layout']); // We don't need to select the base stylesheet.

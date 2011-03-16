@@ -191,7 +191,8 @@ clear: right;
 }
 
 #header #google-cse-searchbox-form label,
-#header #islandora-solr-simple-search-form label, #search-form label {
-
+#header #islandora-solr-simple-search-form {
+position: relative;
+margin-top: 0;
 }
 

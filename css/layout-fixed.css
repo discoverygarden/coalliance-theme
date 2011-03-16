@@ -114,7 +114,7 @@ color: 000;
 }
 
 #content .section {
-margin: 10px 0px 10px 0px;
+margin: 0px 0px 10px 0px;
 padding:0;
 }
 
@@ -187,7 +187,7 @@ float: left;
 #navbar-wrapper.nbl2.nbr2 .NavbarRight,
 #navbar-wrapper.nbl3.nbr2 .NavbarRight,
 #navbar-wrapper.nbl4.nbr2 .NavbarRight {
-width: 60%;
+width: 58%;
 }
 
 #navbar-wrapper.nbl1.nbr1 .NavbarLeft,
@@ -198,7 +198,7 @@ width: 60%;
 #navbar-wrapper.nbl2.nbr2 .NavbarLeft,
 #navbar-wrapper.nbl3.nbr2 .NavbarLeft,
 #navbar-wrapper.nbl4.nbr2 .NavbarLeft {
-width: 40%;
+width: 42%;
 }
 
 #navbar-wrapper.nbl1.nbr0 .column,
@@ -417,14 +417,14 @@ float: right;
 #headercontent-wrapper.hf2 .column.HeaderLeft,
 #headercontent-wrapper.hf3 .column.HeaderLeft,
 #headercontent-wrapper.hf4 .column.HeaderLeft {
-width: 75%;
+width: 60%;
 }
 
 #headercontent-wrapper.hf1.hs1 .column.HeaderRight,
 #headercontent-wrapper.hf2.hs1 .column.HeaderRight,
 #headercontent-wrapper.hf3.hs1 .column.HeaderRight,
 #headercontent-wrapper.hf4.hs1 .column.HeaderRight {
-width: 25%;
+width: 40%;
 }
 
 #headercontent-wrapper.hf1.hs0 .column,
@@ -796,7 +796,6 @@ width:100%;
 padding-left:10px;
 padding-right:10px;
 }
-
 
 /*
  * First sidebar footer

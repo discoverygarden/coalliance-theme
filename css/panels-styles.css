@@ -29,8 +29,6 @@
     font-family: 'Helvetica';
     font-weight: 700;
     height: 292px;
-    margin-left: -2px;
-    margin-right: 3px;
 }
 
 .center-wrapper #image_rotator ul {
@@ -70,6 +68,8 @@
 }
 #image_rotator ul.imageRotator li div.info h2 {
     -moz-border-radius-bottomright: 10px;
+    border-bottom-right-radius: 10px;
+    bottom-right-radius: 10px;
     background-color: #4F878E;
     font-size: 12px;
     font-weight: 700;
