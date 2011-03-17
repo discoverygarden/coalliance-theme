@@ -14,8 +14,8 @@
 #homepage_intro {
     background-color: #e6e7e8;
     background-image: url("../images/unc-feature-e6e7e8.png");
-    border: 2px solid #AEAFAF;
-    height: 266px;
+    border: 1px solid #AEAFAF;
+    height: 260px;
     margin-left: 7px;
     margin-top: 7px;
     overflow: hidden;
@@ -28,7 +28,8 @@
     color: #223133;
     font-family: 'Helvetica';
     font-weight: 700;
-    height: 292px;
+    height: 288px;
+    margin-bottom: 20px;
 }
 
 .center-wrapper #image_rotator ul {
@@ -162,6 +163,15 @@ padding:5px 10px;
     border: 1px solid #D4D4D4;
     margin-bottom: 0 0 20px;
     padding: 0;
+}
+
+.panel-2col-stacked .panel-col-last {
+margin: 8px 0 10px 0;
+padding-left: 0;
+}
+
+.panel-2col-stacked .panel-col-last .inside {
+    margin: 0;
 }
 
 .panel-panel .block .pane-content {

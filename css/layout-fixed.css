@@ -118,6 +118,10 @@ margin: 10px 0px 10px 0px;
 padding:0;
 }
 
+.front #content .section {
+margin: 0px 0px 10px 0px;
+padding:0;
+}
 
 /*
  * Navigation
