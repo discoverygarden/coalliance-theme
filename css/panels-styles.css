@@ -141,7 +141,7 @@ padding:5px 10px;
     color: #fff;
 }
 
-.panel-panel .collection-list h2.pane-title {
+.panel-panel .collection-list h2.pane-title, .view-viewsslideshow .views-content-title {
 -moz-border-radius-bottomright: 10px;
 border-bottom-right-radius: 10px;
 bottom-right-radius: 10px;
