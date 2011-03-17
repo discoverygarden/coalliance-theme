@@ -92,8 +92,9 @@ height: 27px
 #sitecontent-wrapper {
 }
 
-#feature-wrapper .section {
+.front #feature-wrapper .section {
 background: #e6e7e8;
+    height: 290px;
 }
 
 .front #feature-wrapper .region {
@@ -103,8 +104,13 @@ height: 282px;
 .front #feature-wrapper .FeatureFirst .block {
     height: 95%;
     margin: 10px;
-    border: 2px solid #cecece;
+    border: 1px solid #cecece;
     background: url(../images/unc-feature-e6e7e8.png) repeat-x 0 0 transparent;
+}
+
+.front #feature-wrapper .FeatureSecond .block {
+    margin: 10px 0px 10px 0;
+    padding-left: 0px;
 }
 
 #sitecontent{
