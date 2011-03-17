@@ -51,7 +51,7 @@ padding:5px 10px;
     color: #fff;
 }
 
-.panel-panel .collection-list h2.pane-title, .view-viewsslideshow .views-content-title {
+.panel-panel .collection-list h2.pane-title {
 -moz-border-radius-bottomright: 10px;
 border-bottom-right-radius: 10px;
 bottom-right-radius: 10px;
@@ -68,7 +68,32 @@ padding:5px 10px;
     color: #fff;
 }
 
+.view-viewsslideshow .views-content-title {
+-moz-border-radius-bottomright: 10px;
+border-bottom-right-radius: 10px;
+bottom-right-radius: 10px;
+background:none repeat scroll 0 0 #333;
+padding:5px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 10px 5px 0;
+    overflow: hidden;
+    padding: 0 0 0 5px;
+    width: 95%;
+    color: #fff;
+}
 
+.view-viewsslideshow .views-field-title {
+    background-color: #e6e7e8;
+    height: 55px;
+    margin-top: -55px;
+    opacity: 0.7;
+    width: 470px;
+    color: #fff;
+    bottom: 0;
+}
 
 .panel-panel .block {
     background-color: #FFFFFF;
@@ -95,4 +120,54 @@ padding-left: 0;
     height: 150px;
     margin-left: 22px;
     width: 220px;
+}
+
+
+
+
+.view-viewsslideshow .views-content-title a {
+padding: 10px;
+}
+
+.view-viewsslideshow .activeSlide .views-field-counter {
+color: #fff;
+background: url(../images/rotator_pager_active_bg.png) no-repeat 1px 1px transparent;
+}
+
+#views_slideshow_thumbnailhover_teaser_section_viewsslideshow-block_1 {
+display: block;
+clear: both;
+height: 280px;
+}
+
+#views_slideshow_thumbnailhover_breakout_teasers_viewsslideshow-block_1 {
+width: 97px;
+}
+
+.view-viewsslideshow .views-slideshow-controls-bottom {
+float: right;
+}
+
+
+.view-viewsslideshow .views-field-nothing {
+float: right;
+font-style: italic;
+font-size: 90%;
+margin-top: -20px;
+margin-right: 10px;
+z-index: 99;
+position: relative;
+}
+
+.view-viewsslideshow .views-field-counter {
+display: inline-block;
+float: left;
+padding: 0 5px 0 5px;
+margin: 0 0.1em 0 0.1em;
+color: #000;
+background: url(../images/rotator_pager_bg.png) no-repeat 1px 1px transparent;
+font-size: 95%;
+cursor: pointer; 
+cursor: hand;
+z-index: 999;
 }
