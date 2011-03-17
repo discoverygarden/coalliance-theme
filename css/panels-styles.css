@@ -32,97 +32,7 @@
     margin-bottom: 20px;
 }
 
-.center-wrapper #image_rotator ul {
-    height: 277px;
-    margin-left: -7px;
-    margin-top: 7px;
-    width: 472px;
-}
-.center-wrapper-iac #image_rotator ul {
-    height: 163px;
-    margin-left: -7px;
-    margin-top: 7px;
-    width: 506px;
-}
-.center-wrapper-iac ul.imageRotator li {
-    display: none;
-    height: 163px;
-    list-style: none outside none;
-    margin: 64px 0 0;
-}
-.center-wrapper-iac ul.imageRotator li img {
-    border: 3px solid white;
-}
-.center-wrapper ul.imageRotator li {
-    display: none;
-    height: 277px;
-    list-style: none outside none;
-    margin: 0;
-}
-#image_rotator ul.imageRotator li div.info {
-    background-color: #FFFFFF;
-    bottom: 57px;
-    height: 54px;
-    opacity: 0.7;
-    position: relative;
-    width: 472px;
-}
-#image_rotator ul.imageRotator li div.info h2 {
-    -moz-border-radius-bottomright: 10px;
-    border-bottom-right-radius: 10px;
-    bottom-right-radius: 10px;
-    background-color: #4F878E;
-    font-size: 12px;
-    font-weight: 700;
-    height: 22px;
-    line-height: 22px;
-    margin: 0 10px 5px 0;
-    overflow: hidden;
-    padding: 0 0 0 5px;
-    width: 90%;
-}
-#image_rotator ul.imageRotator li div.info a {
-    color: #000000;
-}
-#image_rotator ul.imageRotator li div.info span {
-    display: block;
-    padding-left: 5px;
-    width: 450px;
-}
-#image_rotator ul.imageRotator li div.info div.more {
-    bottom: 5px;
-    float: right;
-    font-family: 'Helvetica';
-    font-size: 90%;
-    font-style: italic;
-    margin-right: 2px;
-    position: relative;
-}
-#image_rotator ul.imageRotator li div.info div.more a {
-    color: #005D62;
-}
-#image_rotator div.imageRotator_pager {
-    bottom: 0;
-    margin: 0;
-    position: relative;
-    right: 0;
-    text-align: right;
-}
-#image_rotator div.imageRotator_pager a {
-    background-image: url("../images/rotator_pager_bg.png");
-    background-repeat: no-repeat;
-    color: #002e5f;
-    display: inline-block;
-    height: 14px;
-    margin: 2px;
-    padding: 0;
-    text-align: center;
-    width: 16px;
-}
-#image_rotator div.imageRotator_pager a.active {
-    background-image: url("../images/rotator_pager_active_bg.png");
-    color: #ecac00;
-}
+
 
 .whats-new h2.pane-title {
 background:none repeat scroll 0 0 #002e5f;
@@ -157,6 +67,8 @@ padding:5px 10px;
     width: 95%;
     color: #fff;
 }
+
+
 
 .panel-panel .block {
     background-color: #FFFFFF;

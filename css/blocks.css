@@ -225,15 +225,18 @@ color: #fff;
 background: url(../images/rotator_pager_active_bg.png) no-repeat 1px 1px transparent;
 }
 
+#views_slideshow_thumbnailhover_teaser_section_viewsslideshow-block_1 {
+display: block;
+clear: both;
+height: 280px;
+}
+
 #views_slideshow_thumbnailhover_breakout_teasers_viewsslideshow-block_1 {
-float: right;
-display: inline-block;
 width: 97px;
-margin-right: -5px;
 }
 
 .view-viewsslideshow .views-slideshow-controls-bottom {
-margin-top: 5px;
+float: right;
 }
 
 
@@ -253,7 +256,7 @@ font-style: italic;
 font-size: 90%;
 margin-top: -20px;
 margin-right: 10px;
-z-index: 9999;
+z-index: 99;
 position: relative;
 }
 
@@ -267,4 +270,5 @@ background: url(../images/rotator_pager_bg.png) no-repeat 1px 1px transparent;
 font-size: 95%;
 cursor: pointer; 
 cursor: hand;
+z-index: 999;
 }
