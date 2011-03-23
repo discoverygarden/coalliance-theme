@@ -6,8 +6,9 @@
  */
 
 .whats-new {
-    float: left;
-    height: 320px;
+    min-height: 315px;
+    height: auto !important;
+    height: 315px;
     width: 215px;
 }
 
@@ -23,7 +24,14 @@
     width: 450px;
 }
 
-.center-wrapper {
+#homepage-gallery  {
+    padding-top: 8px;
+}
+
+
+.panels-flexible-row-1-main-row-inside,
+.panels-flexible-row-1-9-inside,
+.panels-flexible-row-2-main-row-inside {
     background-color: #e6e7e8;
     color: #223133;
     font-family: 'Helvetica';
@@ -31,7 +39,6 @@
     height: 288px;
     margin-bottom: 20px;
 }
-
 
 
 .whats-new h2.pane-title {
@@ -51,7 +58,7 @@ padding:5px 10px;
     color: #fff;
 }
 
-.panel-panel .collection-list h2.pane-title {
+.collection-list h2.pane-title {
 -moz-border-radius-bottomright: 10px;
 border-bottom-right-radius: 10px;
 bottom-right-radius: 10px;
@@ -95,11 +102,12 @@ padding:5px 10px;
     bottom: 0;
 }
 
-.panel-panel .block {
+#homepage_panel .block {
     background-color: #FFFFFF;
     border: 1px solid #D4D4D4;
     margin-bottom: 0 0 20px;
     padding: 0;
+    width: 100%;
 }
 
 .panel-2col-stacked .panel-col-last {
@@ -111,19 +119,16 @@ padding-left: 0;
     margin: 0;
 }
 
-.panel-panel .block .pane-content {
+#homepage_panel .block .pane-content {
     padding: 3px;
 }
 
 .collection-list {
-    float: left;
+    min-height: 150px;
+    height: auto !important;
     height: 150px;
-    margin-left: 22px;
-    width: 220px;
+    width: 100%;
 }
-
-
-
 
 .view-viewsslideshow .views-content-title a {
 padding: 10px;
@@ -146,6 +151,7 @@ width: 97px;
 
 .view-viewsslideshow .views-slideshow-controls-bottom {
 float: right;
+padding-top: 3px;
 }
 
 
