@@ -1,0 +1,135 @@
+/* Header */
+
+#headercontent-inner {
+background: url(../images/header.png) 0 0 transparent;
+}
+
+/*
+#headercontent-wrapper .section {
+margin-bottom: 2px;
+border-bottom: 1px solid #B8B6B8;
+}
+
+#headercontent-wrapper .HeaderLeft {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+*/
+#headercontent-wrapper .section {
+     border-bottom: 1px solid #B8B6B8;
+}
+
+#headercontent-wrapper .HeaderLeft {
+    margin-bottom: -15px; 
+     padding-top: 30px;
+}
+
+#site-name {
+    font-size:185%;
+	font-weight:bold;
+    
+}
+
+#site-slogan {
+margin-top: -3px;
+}
+
+#header {
+color: #161616;
+}
+
+#header a:link {
+    color: #660033;
+}
+#header a:visited {
+    color: #660033;
+}
+#header a:hover, #header a:focus {
+    color: #660033;
+}
+#header a:active {
+    color: #660033;
+}
+
+/* Navbar */
+/*
+#navbar-wrapper {
+background: url(../images/navbar-right.png) repeat-x 0 0 #B8B6B8;
+height: 27px;
+border-bottom: 1px solid #B8B6B8;
+}
+
+#navbar-wrapper .column.NavbarLeft {
+background: url(../images/navbar-left.png) repeat-x scroll 0 0 transparent;
+height: 27px
+}
+*/
+
+#navbar-wrapper {
+background: #000000;
+height: 27px;
+border-bottom: 1px solid #B8B6B8;
+}
+
+#navbar-wrapper .column.NavbarLeft {
+background: #000000;
+height: 27px
+}
+
+#nav ul.menu  li.active-trail,
+#nav ul.menu  li:hover, 
+#nav .menu li li:hover, 
+#nav .menu li li li:hover,
+#superfish ul.menu  li.active-trail,
+#superfish ul.menu  li:hover, 
+#superfish .menu li li:hover, 
+#superfish .menu li li li:hover {
+        background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
+}
+
+#navigation {
+color: #fff;
+}
+
+#navigation .section {
+    line-height: 1em;
+}
+
+#navigation a:link {
+    color: #fff;
+}
+#navigation a:visited {
+    color: #fff;
+}
+#navigation a:hover, #header a:focus {
+    color: #fff;
+}
+#navigation a.active {
+    color: #fff;
+    background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
+}
+
+
+/* Feature & Panels */
+
+.front #feature-wrapper .region {
+height: 282px;
+}
+
+.center-wrapper {
+    color: #222;
+}
+
+.region-sidebar-first .block h2.title, 
+.region-sidebar-second .block h2.title, 
+div.admin-panel h3,
+.whats-new h2.pane-title {
+background-color: #660033;
+color: #fff;
+}
+
+.collection-list h2.pane-title {
+background-color: #000000;
+}
+
+

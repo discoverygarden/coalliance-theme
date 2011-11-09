@@ -1,5 +1,9 @@
 /* Header */
 
+#site-name {
+      font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
 #headercontent-inner {
 background: url(../images/header.png) 0 0 transparent;
 height: 100px;
@@ -78,6 +82,8 @@ height: 27px
         background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
 }
 
+
+
 #navigation {
 color: #fff;
 }
@@ -89,10 +95,11 @@ color: #fff;
 #navigation a:link {
     color: #fff;
 }
-#navigation a:visited {
+#navigation a:visited,
+#navigation a:focus {
     color: #fff;
 }
-#navigation a:hover, #header a:focus {
+#navigation a:hover {
     color: #161616;
 }
 #navigation a.active {

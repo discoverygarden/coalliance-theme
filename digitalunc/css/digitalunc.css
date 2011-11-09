@@ -41,6 +41,7 @@ color: #fff;
 background: url(../images/navbar-right.png) repeat-x 0 0 #B8B6B8;
 height: 27px;
 border-bottom: 1px solid #B8B6B8;
+margin-top: -8px;
 }
 
 #navbar-wrapper .column.NavbarLeft {
@@ -89,12 +90,12 @@ color: #000;
 .region-sidebar-second .block h2.title, 
 div.admin-panel h3,
 .whats-new h2.pane-title {
-background-color: #002e5f;
+background-color: #00447c;
 color: #FFF;
 }
 
 .collection-list h2.pane-title {
-background-color: #ecac00;
+background-color: #007dc3;
 color: #fff;
 }
 

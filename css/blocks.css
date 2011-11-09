@@ -126,7 +126,7 @@ padding:5px 10px;
     margin: 0 10px 5px 0;
     overflow: hidden;
     padding: 0 0 0 5px;
-    width: 95%;
+    width: 180px;
     color: #fff;
 }
 
@@ -188,7 +188,7 @@ div.block.with-block-editing div.edit {
   display: none;
   position: absolute;
   right: 0; /* LTR */
-  top: 0;
+  top: -15px;
   z-index: 40;
   border: 1px solid #eee;
   padding: 0 2px;

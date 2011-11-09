@@ -5,7 +5,7 @@
 }
 
 #headercontent-inner {
-background: url(../images/header.png) 0 0 transparent;
+background: url(../images/header.png) 0 0 solid #ffce00;
 }
 
 #headercontent-wrapper .section {
@@ -14,7 +14,8 @@ border-bottom: 1px solid #ddd;
 }
 
 #site-name {
-    line-height: 80%;
+    font-size: 450%;		
+    line-height: 100%;
 }
 
 #site-slogan {
@@ -35,16 +36,16 @@ color: #161616;
 }
 
 #header a:link {
-    color: #fff;
+    color: #ffce00;
 }
 #header a:visited {
-    color: #fff;
+    color: #ffce00;
 }
 #header a:hover, #header a:focus {
-    color: #fff;
+    color: #ffce00;
 }
 #header a:active {
-    color: #fff;
+    color: #ffce00; 
 }
 
 /* Navbar */
@@ -113,7 +114,8 @@ color: #ffce00;
 }
 
 .collection-list h2.pane-title {
-background-color: #ffce00;
+background-color: #00234c;
+color: #ffce00;
 }
 
 

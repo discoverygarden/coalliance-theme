@@ -1,5 +1,4 @@
 /* $Id: html-reset.css,v 1.6.2.2 2010/06/26 15:36:03 johnalbin Exp $ */
-
 /**
  * @file
  * HTML Element Styling
@@ -11,8 +10,6 @@
  * @see http://meiert.com/en/blog/20080419/reset-style-sheets-are-bad/
  * @see http://snook.ca/archives/html_and_css/no_css_reset/
  */
-
-
 /*
  * Fonts
  *
@@ -26,27 +23,21 @@
  * across different browsers.
  */
 body {
-  font-size: 85%; /* Fixes exaggerated text resizing in IE6 and IE7 */
+    font-size : 85%; /* Fixes exaggerated text resizing in IE6 and IE7 */
 }
-
 body h2.title {
-  font-size: 110%; /* Fixes exaggerated text resizing in IE6 and IE7 */
+    font-size : 110%; /* Fixes exaggerated text resizing in IE6 and IE7 */
 }
-
 #skip-link,
 #page {
-  /*
+    /*
    * To use a 12px font size on the page, delete the 14px declarations.
    * to use a 14px font size on the page, delete the 12px declarations.
    */
-
-  /* Use a 12px base font size with a 16px line height */
-  font-size: 0.875em; /* 16px x .75 = 12px */
-  line-height: 1.5em; /* 12px x 1.5 = 18px */
-
-
+    /* Use a 12px base font size with a 16px line height */
+    font-size : 0.875em; /* 16px x .75 = 12px */
+    line-height : 1.5em; /* 12px x 1.5 = 18px */
 }
-
 body,
 caption,
 th,
@@ -57,7 +48,7 @@ select,
 option,
 legend,
 fieldset {
-  /* The following font family declarations are based on the Microsoft core web
+    /* The following font family declarations are based on the Microsoft core web
    * fonts which are common fonts available on most computer systems. The DejaVu
    * fonts are commonly available on Linux systems where the MS fonts are less
    * common. Tahoma and Helvetica are also widely available.
@@ -80,172 +71,136 @@ fieldset {
   font-family: "Courier New", "DejaVu Sans Mono", monospace;
 
    */
-
-  font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,Geneva,sans-serif;
+    font-family : "Lucida Grande", "Lucida Sans Unicode", Verdana, Geneva, sans-serif;
 }
-
 pre,
 code {
-  font-size: 1.1em; /* Monospace fonts can be hard to read */
-  font-family: "Courier New", "DejaVu Sans Mono", monospace;
+    font-size : 1.1em; /* Monospace fonts can be hard to read */
+    font-family : "Courier New", "DejaVu Sans Mono", monospace;
 }
-
-
 html.js fieldset.collapsible .fieldset-wrapper {
-overflow:visible;
+    overflow : visible;
 }
-
 /*
 A Revised Font Stack
 from A Way Back
 http://www.awayback.com/revised-font-stack/
 
 */
-
-
-
 /*
 Serif font-stack
 */
-
 /*GARAMOND(23.84% on Mac, 86.24% on Windows)*/
 .garamond {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    font-family : Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
-
 /*LUCIDA BRIGHT(64.90% on Mac, 33.84% on Windows) Huge x-height*/
 .lucida_bright {
-  font-family: "Lucida Bright", Georgia, serif;
+    font-family : "Lucida Bright", Georgia, serif;
 }
-
 /*PALATINO(79.71% on Mac, 98.04% on Windows)*/
 .palatino {
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-family : Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
-
 /*BIG CASLON(85.10% on Mac)*/
 .big_caslon {
-  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    font-family : "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 }
-
 /*DIDOT(87.72% on Mac)*/
 .didot {
-  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family : Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
-
 /*BASKERVILLE(88.60% on Mac, 49.10% on Windows)*/
 .baskerville {
-  font-family: Baskerville, "Baskerville old face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family : Baskerville, "Baskerville old face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
-
 /*HOEFLER TEXT(88.70% on Mac, 1.16% on Windows)*/
 .hoefler_text {
-  font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+    font-family : "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
 }
-
 /*BODONI(47.89% on Windows)*/
 .bodoni_mt {
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family : "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
-
 /*GOUDY OLD STYLE(51.30% on Windows)*/
 .goudy_old_style {
-  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    font-family : "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
-
 /*CONSTANTIA(53.81% on Windows)*/
 .constantia {
-  font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-family : Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
-
 /*CAMBRIA(54.51% on Windows)*/
 .cambria {
-  font-family: Cambria, Georgia, serif;
+    font-family : Cambria, Georgia, serif;
 }
-
 /*BOOK ANTIQUA(86.09% on Mac)*/
 .book_antiqua {
-  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-family : "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 }
-
-
 /*
 Sans-Serif font-stack
 */
-
 /*OPTIMA(90.14% on Mac)*/
 .optima {
-  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-family : Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
-
 /*FUTURA(91.01% on Mac)*/
 .futura {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-family : Futura, "Trebuchet MS", Arial, sans-serif;
 }
-
 /*GILL SANS(91.52% on Mac, 51.74% on Windows)*/
 .gill_sans {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-family : "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
-
 /*TREBUCHET(94.20% on Mac, 99% on Windows)*/
 .trebuchet {
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-family : "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
-
 /*HELVETICA NEUE(94.74% on Mac)*/
 .helvetica {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 /*VERDANA(96.81% on Mac, 99.40% on Windows)*/
 .verdana {
-  font-family: Verdana, Geneva, sans-serif;
+    font-family : Verdana, Geneva, sans-serif;
 }
-
 /*LUCIDA GRANDE(99.13% on Mac, 98.25% on Windows)*/
 .lucida_grande {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    font-family : "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
-
 /*GENEVA(98.84% on Mac)*/
 .geneva {
-  font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-family : Geneva, Tahoma, Verdana, sans-serif;
 }
-
 /*SEGOE(45.04% on Windows)*/
 .segoe {
-  font-family: Segoe, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-family : Segoe, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
-
 /*CANDARA(54.31% on Windows)*/
 .candara {
-  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-family : Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
-
 /*CALIBRI(54.76% on Windows)*/
 .calibri {
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-family : Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
-
 /*FRANKLIN GOTHIC MEDIUM(97.89% on Mac)*/
 .franklin_gothic {
-  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+    font-family : "Franklin Gothic Medium", Arial, sans-serif;
 }
-
 /*TAHOMA(99.30% on Windows)*/
 .tahoma {
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-family : Tahoma, Geneva, Verdana, sans-serif;
 }
-
 /*
  * Headings
  */
 h1 {
-  font-size: 1.8em;
-  line-height: 1.3em;
-  margin-top: 0;
-  margin-bottom: 0.5em; /* 0.5em is equavalent to 1em in the page's base font.
+    font-size : 1.8em;
+    line-height : 1.3em;
+    margin-top : 0;
+    margin-bottom : 0.5em; /* 0.5em is equavalent to 1em in the page's base font.
                            Remember, a margin specified in ems is relative to
                            the element's font-size, not to the pages' base
                            font size. So, for example, if we want a 1em margin
@@ -253,60 +208,50 @@ h1 {
                            length by the element's font-size:
                            1em / 2em = 0.5em */
 }
-
 h2 {
-  font-size: 1.5em;
-  line-height: 1.3em;
-  margin-top: 0.667em; /* Equivalent to 1em in the page's base font: 1 / 1.5 = 0.667em */
-  margin-bottom: 0.667em;
+    font-size : 1.5em;
+    line-height : 1.3em;
+    margin-top : 0.667em; /* Equivalent to 1em in the page's base font: 1 / 1.5 = 0.667em */
+    margin-bottom : 0.667em;
 }
-
 h3 {
-  font-size: 1.4em;
-  line-height: 1.3em;
-  margin-top: 0.769em; /* Equivalent to 1em in the page's base font: 1 / 1.3 = 0.769 */
-  margin-bottom: 0.769em;
+    font-size : 1.4em;
+    line-height : 1.3em;
+    margin-top : 0.769em; /* Equivalent to 1em in the page's base font: 1 / 1.3 = 0.769 */
+    margin-bottom : 0.769em;
 }
-
 h4 {
-  font-size: 1.3em;
-  line-height: 1.3em;
-  margin-top: 0.909em; /* Equivalent to 1em in the page's base font: 1 / 1.1 = 0.909 */
-  margin-bottom: 0.909em;
+    font-size : 1.3em;
+    line-height : 1.3em;
+    margin-top : 0.909em; /* Equivalent to 1em in the page's base font: 1 / 1.1 = 0.909 */
+    margin-bottom : 0.909em;
 }
-
 h5 {
-  font-size: 1.2em;
-  line-height: 1.3em;
-  margin-top: 0.909em; /* Equivalent to 1em in the page's base font: 1 / 1.1 = 0.909 */
-  margin-bottom: 0.909em;
+    font-size : 1.2em;
+    line-height : 1.3em;
+    margin-top : 0.909em; /* Equivalent to 1em in the page's base font: 1 / 1.1 = 0.909 */
+    margin-bottom : 0.909em;
 }
-
 h6 {
-  font-size: 1.1em;
-  line-height: 1.3em;
-  margin-top: 0.909em; /* Equivalent to 1em in the page's base font: 1 / 1.1 = 0.909 */
-  margin-bottom: 0.909em;
+    font-size : 1.1em;
+    line-height : 1.3em;
+    margin-top : 0.909em; /* Equivalent to 1em in the page's base font: 1 / 1.1 = 0.909 */
+    margin-bottom : 0.909em;
 }
-
 #footer {
-font-size: 90%;
+    font-size : 90%;
 }
-
 #closure {
-font-size: 70%;
-text-align: right;
-padding: 0.5em 0;
-border-top: 1px solid #BBBBBB;
+    font-size : 70%;
+    text-align : right;
+    padding : 0.5em 0;
+    border-top : 1px solid #BBBBBB;
 }
-
 #bottom {
-font-size: 95%;
-border-top: 1px solid #BBBBBB;
-background: url(../images/unc-feature-e6e7e8.png) repeat-x scroll 0 0 #d1d4d5;
+    font-size : 95%;
+    border-top : 1px solid #BBBBBB;
+    background : url(../images/unc-feature-e6e7e8.png) repeat-x scroll 0 0 #d1d4d5;
 }
-
-
 /*
  * Block-level elements
  */
@@ -317,135 +262,129 @@ dl,
 pre,
 table,
 fieldset {
-  margin: 1em 0;
+    margin : 1em 0;
 }
-
 #feature p {
-margin: 0;
-padding: 0 0 1em 0;
+    margin : 0;
+    padding : 0 0 1em 0;
 }
-
 blockquote {
-  background: url(../images/open-quote.png) no-repeat 0 0;
-  font: italic;
-  margin: 1em 0.5em;
+    background : url(../images/open-quote.png) no-repeat 0 0;
+    font : italic;
+    margin : 1em 0.5em;
 }
-
 blockquote p {
-  background: url(../images/close-quote.png) no-repeat right bottom;
-  margin-left: 2.2em;
-  padding-right: 1.5em;
+    background : url(../images/close-quote.png) no-repeat right bottom;
+    margin-left : 2.2em;
+    padding-right : 1.5em;
 }
-
-
 /*
  * Lists
  *
  * We need to standardize the list item indentation.
  */
- 
-
 ul,
 ol {
-  margin-left: 0;
-  padding-left: 2em; /* LTR */
+    margin-left : 0;
+    padding-left : 2em; /* LTR */
 }
-
 .block ul,
 .item-list ul /* Drupal overrides */ {
-  margin: 1em 0;
-  padding: 0 0 0 1em; /* LTR */
+    margin : 1em 0;
+    padding : 0 0 0 1em; /* LTR */
 }
-
-ul ul, ul ol,
-ol ol, ol ul,
-.block ul ul, .block ul ol,
-.block ol ol, .block ol ul,
-.item-list ul ul, .item-list ul ol,
-.item-list ol ol, .item-list ol ul {
-  margin: 0;
+ul ul,
+ul ol,
+ol ol,
+ol ul,
+.block ul ul,
+.block ul ol,
+.block ol ol,
+.block ol ul,
+.item-list ul ul,
+.item-list ul ol,
+.item-list ol ol,
+.item-list ol ul {
+    margin : 0;
 }
-
 li {
-  margin: 0;
-  padding: 0;
+    margin : 0;
+    padding : 0;
 }
-
 .item-list ul li /* Drupal override */ {
-  margin:0;
-  padding:0;
-  list-style: inherit;
+    margin : 0;
+    padding : 0;
+    list-style : inherit;
 }
-
 ul.menu li,
-li.expanded, 
+li.expanded,
 li.collapsed,
 li.leaf /* Drupal override */ {
-  margin: 0.15em 0 0.15em 0.5em;
-  padding: 0;
+    margin : 0.15em 0 0.15em 0.5em;
+    padding : 0;
 }
-
-ul          { list-style-type: disc; }
-ul ul       { list-style-type: circle; }
-ul ul ul    { list-style-type: square; }
-ul ul ul ul { list-style-type: circle; }
-ol          { list-style-type: decimal; }
-ol ol       { list-style-type: lower-alpha; }
-ol ol ol    { list-style-type: decimal; }
-
+ul {
+    list-style-type : disc;
+}
+ul ul {
+    list-style-type : circle;
+}
+ul ul ul {
+    list-style-type : square;
+}
+ul ul ul ul {
+    list-style-type : circle;
+}
+ol {
+    list-style-type : decimal;
+}
+ol ol {
+    list-style-type : lower-alpha;
+}
+ol ol ol {
+    list-style-type : decimal;
+}
 dt {
-  margin: 0;
-  padding: 0;
+    margin : 0;
+    padding : 0;
 }
-
 dd {
-  margin: 0 0 0 2em;
-  padding: 0;
+    margin : 0 0 0 2em;
+    padding : 0;
 }
-
-#bottomcontent-wrapper ul{
-list-style-type: none;
-list-style-image: none;
+#bottomcontent-wrapper ul {
+    list-style-type : none;
+    list-style-image : none;
 }
-
-#bottomcontent-wrapper .block-aggregator ul li{
-padding-bottom: 0.2em;
+#bottomcontent-wrapper .block-aggregator ul li {
+    padding-bottom : 0.2em;
 }
-
 #aggregator .feed-item-title {
-font-size: 1.1em;
+    font-size : 1.1em;
 }
-
 #aggregator .feed-item {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 1em;
+    border-bottom : 1px solid #ccc;
+    padding-bottom : 1em;
 }
-
 #aggregator .feed-item-date {
-	color: #888;
-	font-size: 90%;
+    color : #888;
+    font-size : 90%;
 }
-
 #aggregator .feed-url,
 #aggregator .feed-updated,
 #aggregator .feed-item-categories {
-	color: #888;
-	font-size: 95%;
+    color : #888;
+    font-size : 95%;
 }
-
-#aggregator .feed-item-title a{
-text-decoration: none;
+#aggregator .feed-item-title a {
+    text-decoration : none;
 }
-
-#aggregator .feed-item-title a:hover{
-text-decoration: none;
+#aggregator .feed-item-title a:hover {
+    text-decoration : none;
 }
-
 #bottom .item-list ul li {
-padding:0 0 0.2em;
+    padding : 0 0 0.2em;
 }
-
-
 /*
  * Links
  *
@@ -453,129 +392,109 @@ padding:0 0 0.2em;
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
-    color: #007898;
-    padding-bottom: 1px;
-    text-decoration: none;
+    color : #007898;
+    padding-bottom : 1px;
+    text-decoration : none;
 }
-
 a:visited {
-    color: #007898;
-    padding-bottom: 1px;
-    text-decoration: none;
+    color : #007898;
+    padding-bottom : 1px;
+    text-decoration : none;
 }
-
 a:hover,
 a:focus {
-    color: #000000;
+    color : #000000;
 }
-
 a:active {
-    color: #000000;
+    color : #000000;
 }
-
-#bottom li.leaf, .footersidebar #secondary-links {
-list-style-image: none;
-list-style-type: none;
+#bottom li.leaf,
+.footersidebar #secondary-links {
+    list-style-image : none;
+    list-style-type : none;
 }
-
-#bottom .block ul, #bottom .item-list ul {
-margin: 0;
-padding: 0;
+#bottom .block ul,
+#bottom .item-list ul {
+    margin : 0;
+    padding : 0;
 }
-
-#bottom ul.menu li,#bottom li.expanded, #bottom li.collapsed, #bottom li.leaf,  .footersidebar ul.links li {
-margin-left: 0;
-padding-left: 0;
+#bottom ul.menu li,
+#bottom li.expanded,
+#bottom li.collapsed,
+#bottom li.leaf,
+.footersidebar ul.links li {
+    margin-left : 0;
+    padding-left : 0;
 }
-
-
 #bottom .footersidebar ul.menu li,
-#bottom .footersidebar li.expanded, 
+#bottom .footersidebar li.expanded,
 #bottom .footersidebar li.collapsed,
 #bottom .footersidebar li.leaf /* Drupal override */ {
-  margin: 0.25em 0 0.25em 0.5em;
-  padding: 0;
+    margin : 0.25em 0 0.25em 0.5em;
+    padding : 0;
 }
-
-#bottom ul.menu, .footersidebar ul.links {
-text-transform:normal;
+#bottom ul.menu,
+.footersidebar ul.links {
+    text-transform : normal;
 }
-
 .footersidebar ul.links li {
-display:block;
+    display : block;
 }
-
 .block-menu h2.title {
 }
-
 #header .block-menu h2.title {
-display: none;
+    display : none;
 }
-
-
 /*
  * Link Colors
  *
  * The order of link states are based on Eric Meyer's article:
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
-
 a:link {
-  text-decoration: none;
+    text-decoration : none;
 }
-
 a:visited {
-  text-decoration: none;
+    text-decoration : none;
 }
-
 a:hover,
 a:focus {
-  text-decoration: none;
+    text-decoration : none;
 }
-
 a:active {
-
 }
-
 #header a:link {
-color: #fff
+    color : #fff
 }
-
 #header a:visited {
-color: #fff
+    color : #fff
 }
-
 #header a:hover,
 #header a:focus {
-color: #fff
+    color : #fff
 }
-
 #header a:active {
+    color : #fff
+}
+#header li a.active,
+{
 color: #fff
 }
-
-#header li  a.active,  {
-color: #fff
-}
-
 #footer a:link {
-color: #000;
+    color : #000;
 }
-
 #footer a:visited {
-color: #000;
+    color : #000;
 }
-
 #footer a:hover,
 #footer a:focus {
-color: #000;
+    color : #000;
 }
-
 #footer a:active {
-color: #000;
+    color : #000;
 }
-
-#footer li  a.active,  {
+#footer li a.active,
+{
 color: #000;
 }
 
@@ -586,111 +505,103 @@ color: #000;
  * forms, so we override this default CSS. (We set it back in forms.css.)
  */
 table {
-  border-collapse: collapse;
-  /* width: 100%; */ /* Prevent cramped-looking tables */
+    border-collapse : collapse;
+    /* width: 100%; */ /* Prevent cramped-looking tables */
 }
-
-th,
-thead th,
-tbody th {
-  text-align: left; /* LTR */
-  padding: 0;
-  border-bottom: none;
+th, thead th, tbody th {
+     border-bottom: none;
+     padding: 0pt;
+     text-align: left;
+     vertical-align: top;
+}
+td {
+padding: 0pt;
+vertical-align:top;
 }
 
 tbody {
-  border-top: none;
+    border-top : none;
 }
-
 /*
  * Abbreviations
  */
 abbr {
-  border-bottom: 1px dotted #666;
-  cursor: help;
-  white-space: nowrap;
+    border-bottom : 1px dotted #666;
+    cursor : help;
+    white-space : nowrap;
 }
-
 abbr.created /* Date-based "abbreviations" show computer-friendly timestamps which are not human-friendly. */ {
-  border: none;
-  cursor: auto;
-  white-space: normal;
+    border : none;
+    cursor : auto;
+    white-space : normal;
 }
-
 /*
  * Images
  */
 img {
-  border: 0;
+    border : 0;
 }
-
 /*
  * Horizontal rules
  */
 hr {
-  height: 1px;
-  border: 1px solid #666;
+    height : 1px;
+    border : 1px solid #666;
 }
-
 /*
  * Forms
  */
 form {
-  margin: 0;
-  padding: 0;
+    margin : 0;
+    padding : 0;
 }
-
 fieldset {
-  margin: 1em 0;
-  padding: 0.4em;
+    margin : 1em 0;
+    padding : 0.4em;
 }
-
-
-/* custom */ 
-
+/* custom */
 .float-right-front {
-float: right;
-margin-top: -25px;
+    float : right;
+    margin-top : -25px;
 }
-
 .float-right {
-float: right
+    float : right
 }
-
 .float-left {
-float: left
+    float : left
 }
-
 #headercontent-wrapper .HeaderRight .menu {
-    clear:right;
-    margin-top: 4px;
+    clear : right;
+    margin-top : 4px;
 }
-
-#topbar ul, #headercontent-wrapper .HeaderRight {
-font-size: 10px;
+#topbar ul,
+#headercontent-wrapper .HeaderRight {
+    font-size : 10px;
 }
-
-#topbar ul, #headercontent-wrapper .HeaderRight .block {
-float: right;
+#topbar ul,
+#headercontent-wrapper .HeaderRight .block {
+    float : right;
 }
-
-
-#topbar ul, #headercontent-wrapper ul {
-    margin: 0;
-    padding: 0;
+#topbar ul,
+#headercontent-wrapper ul {
+    margin : 0;
+    padding : 0;
 }
-#topbar li, #headercontent-wrapper li {
-    display: inline;
-    list-style-image: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#topbar li,
+#headercontent-wrapper li {
+    display : inline;
+    list-style-image : none;
+    list-style-type : none;
+    margin : 0;
+    padding : 0;
 }
-#topbar ul.menu li, #headercontent-wrapper ul.menu li {
-    border-right: 1px solid #686C71;
-    margin: 0;
-    padding: 0 0.6em 0 0.2em;
+#topbar ul.menu li,
+#headercontent-wrapper ul.menu li {
+    border-right : 1px solid #686C71;
+    margin : 0;
+    padding : 0 0.6em 0 0.2em;
 }
-#topbar ul.menu li.last, #headercontent-wrapper ul.menu li.last {
-    border-right: 0 solid #000000;
+#topbar ul.menu li.last,
+#headercontent-wrapper ul.menu li.last {
+    border-right : 0 solid #000000;
 }

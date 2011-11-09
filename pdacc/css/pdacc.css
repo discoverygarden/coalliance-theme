@@ -36,15 +36,28 @@ color: #161616;
 
 /* Navbar */
 
+/*
 #navbar-wrapper {
 background: url(../images/navbar-right.png) repeat-x 0 0 #B8B6B8;
 height: 27px;
 border-bottom: 1px solid #B8B6B8;
+margin-top: 2px;
 }
 
 #navbar-wrapper .column.NavbarLeft {
 background: url(../images/navbar-left.png) repeat-x scroll 0 0 transparent;
 height: 27px
+}
+*/
+#navbar-wrapper {
+background: #292C33;
+height: 28px;
+border-bottom: 1px solid #B8B6B8;
+}
+
+#navbar-wrapper .column.NavbarLeft {
+background:  #292C33;
+height: 28px;
 }
 
 #nav ul.menu  li.active-trail,

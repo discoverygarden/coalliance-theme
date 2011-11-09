@@ -43,11 +43,10 @@ body.front, body.not-front {
 #header .section{
 }
 
-
 #headercontent-inner {
-background: url(../images/unc-header-002e5f.png) 0 0 transparent;
-height: 91px;
-
+     background: url("../images/unc-header-002e5f.png") repeat scroll 0pt 0pt transparent;
+     height: 91px;
+     margin-bottom: -3px;
 }
 
 #headercontent-wrapper .section {

@@ -150,7 +150,7 @@ float: left;
 #header #search-block-form .form-item label	{ 
  color: #fff; /* Wrapper for the search form */
 }  
-  
+/*  
 #header #google-cse-searchbox-form .form-item input,
 #header #islandora-solr-simple-search-form .form-item input, 
 #header #search-box .form-item input,
@@ -164,14 +164,25 @@ float: left;
   color: #666;
   padding-left: 5px;
 }
+*/
+
+#header #google-cse-searchbox-form .form-item input, #header #islandora-solr-simple-search-form .form-item input, #header #search-box .form-item input, #header #search-block-form .form-item input {
+     color: #666666;
+     display: inline;
+     font-size: 9.5pt;
+     height: 17px;
+     margin: 2px;
+     padding-left: 5px;
+     width: 350px;
+}
 
 #header #google-cse-searchbox-form  input.form-submit, 
 #header #islandora-solr-simple-search-form input.form-submit, 
 #header #search-form input.form-submit, 
 #header #search-box input.form-submit,
 #header #search-block-form input.form-submit {
-height: 23px;
-width: 83px;
+height: 24px;
+width: 24px;
 cursor: pointer;
 text-indent: -9999px;
 border: none;
