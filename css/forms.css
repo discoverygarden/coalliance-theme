@@ -166,15 +166,18 @@ float: left;
 }
 */
 
-#header #google-cse-searchbox-form .form-item input, #header #islandora-solr-simple-search-form .form-item input, #header #search-box .form-item input, #header #search-block-form .form-item input {
+#header #google-cse-searchbox-form .form-item input,
+#header #islandora-solr-simple-search-form .form-item input,
+#header #search-box .form-item input, #header #search-block-form .form-item input
+{
      color: #666666;
      display: inline;
      font-size: 9.5pt;
      height: 17px;
-     margin: 2px;
-     padding-left: 5px;
-     width: 350px;
-}
+     margin: 0 0 3px;
+     padding: 0 0 0 5px;
+     width: 260px;
+} 
 
 #header #google-cse-searchbox-form  input.form-submit, 
 #header #islandora-solr-simple-search-form input.form-submit, 

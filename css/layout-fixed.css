@@ -182,6 +182,7 @@ float: right;
 text-align: left;
 float: left;
 }
+ 
 
 #navbar-wrapper.nbl1.nbr1 .NavbarRight,
 #navbar-wrapper.nbl2.nbr1 .NavbarRight,
@@ -191,7 +192,7 @@ float: left;
 #navbar-wrapper.nbl2.nbr2 .NavbarRight,
 #navbar-wrapper.nbl3.nbr2 .NavbarRight,
 #navbar-wrapper.nbl4.nbr2 .NavbarRight {
-width: 58%;
+width: 67%;
 }
 
 #navbar-wrapper.nbl1.nbr1 .NavbarLeft,
@@ -202,7 +203,7 @@ width: 58%;
 #navbar-wrapper.nbl2.nbr2 .NavbarLeft,
 #navbar-wrapper.nbl3.nbr2 .NavbarLeft,
 #navbar-wrapper.nbl4.nbr2 .NavbarLeft {
-width: 42%;
+width: 33%;
 }
 
 #navbar-wrapper.nbl1.nbr0 .column,

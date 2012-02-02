@@ -147,7 +147,7 @@ height: 280px;
 }
 
 #views_slideshow_thumbnailhover_breakout_teasers_viewsslideshow-block_1 {
-width: 97px;
+
 }
 
 .view-viewsslideshow .views-slideshow-controls-bottom {
@@ -155,8 +155,22 @@ float: right;
 padding-top: 3px;
 }
 
+.views_slideshow_thumbnailhover_div_breakout_teaser
+{
+  float: left;  
+}
 
 .view-viewsslideshow .views-field-nothing {
+float: right;
+font-style: italic;
+font-size: 90%;
+margin-top: -20px;
+margin-right: 10px;
+z-index: 99;
+position: relative;
+}
+
+.view-viewsslideshow .views-field-guid{
 float: right;
 font-style: italic;
 font-size: 90%;

@@ -605,3 +605,67 @@ fieldset {
 #headercontent-wrapper ul.menu li.last {
     border-right : 0 solid #000000;
 }
+
+
+
+
+/* tables */
+
+
+table
+{
+  margin: 1em 0;
+  width: 100%;
+}
+
+thead th
+{
+  border-bottom: 2px solid #d3e7f4;
+  font-weight: bold;
+}
+
+tr.odd td,
+tr.even td,
+td,
+tr
+{
+  padding: .3em .5em;
+}
+
+tr.even,
+tr.odd,
+tbody th
+{
+  border-width: 1px 0;
+}
+
+tr.odd,
+tr.info
+{
+  background-color: #eee;
+}
+
+tr.even
+{
+  background-color: #fff;
+}
+
+tr.drag
+{
+  background-color: #fffff0;
+}
+
+tr.drag-previous
+{
+  background-color: #ffd;
+}
+
+tr:first-child td.region,
+tr:first-child td.module,
+tr:first-child td.container,
+tr:first-child td.category
+{
+  border-top-width: 0;
+}
+
+

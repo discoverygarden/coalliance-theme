@@ -94,100 +94,8 @@ color: #000;
 
 
 
-/* Smaller search field */
-
-#navbar-wrapper.nbl1.nbr1 .NavbarRight,
-#navbar-wrapper.nbl2.nbr1 .NavbarRight,
-#navbar-wrapper.nbl3.nbr1 .NavbarRight,
-#navbar-wrapper.nbl4.nbr1 .NavbarRight,
-#navbar-wrapper.nbl1.nbr2 .NavbarRight,
-#navbar-wrapper.nbl2.nbr2 .NavbarRight,
-#navbar-wrapper.nbl3.nbr2 .NavbarRight,
-#navbar-wrapper.nbl4.nbr2 .NavbarRight {
-width: 67%;
-}
-
-#navbar-wrapper.nbl1.nbr1 .NavbarLeft,
-#navbar-wrapper.nbl2.nbr1 .NavbarLeft,
-#navbar-wrapper.nbl3.nbr1 .NavbarLeft,
-#navbar-wrapper.nbl4.nbr1 .NavbarLeft,
-#navbar-wrapper.nbl1.nbr2 .NavbarLeft,
-#navbar-wrapper.nbl2.nbr2 .NavbarLeft,
-#navbar-wrapper.nbl3.nbr2 .NavbarLeft,
-#navbar-wrapper.nbl4.nbr2 .NavbarLeft {
-width: 33%;
-}
-
-#header #google-cse-searchbox-form .form-item input, #header #islandora-solr-simple-search-form .form-item input, #header #search-box .form-item input, #header #search-block-form .form-item input {
-     color: #666666;
-     display: inline;
-     font-size: 9.5pt;
-     height: 14px;
-     margin: 1px;
-     padding-left: 5px;
-     width: 260px;
-} 
 
 
-
-/* tables */
-
-
-table
-{
-  margin: 1em 0;
-  width: 100%;
-}
-
-thead th
-{
-  border-bottom: 2px solid #d3e7f4;
-  font-weight: bold;
-}
-
-tr.odd td,
-tr.even td,
-td,
-tr
-{
-  padding: .3em .5em;
-}
-
-tr.even,
-tr.odd,
-tbody th
-{
-  border-width: 1px 0;
-}
-
-tr.odd,
-tr.info
-{
-  background-color: #eee;
-}
-
-tr.even
-{
-  background-color: #fff;
-}
-
-tr.drag
-{
-  background-color: #fffff0;
-}
-
-tr.drag-previous
-{
-  background-color: #ffd;
-}
-
-tr:first-child td.region,
-tr:first-child td.module,
-tr:first-child td.container,
-tr:first-child td.category
-{
-  border-top-width: 0;
-}
 
 
 
@@ -220,6 +128,5 @@ color: #FFF;
 background-color: #5a0000;
 color: #FFFFE6;
 }
-
 
 

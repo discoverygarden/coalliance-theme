@@ -170,10 +170,10 @@ tr.even /* Some tables have rows marked even or odd. */ {
 tr.odd {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
 }
-
+/*
 tr.odd td, tr.even td {
 padding:0.1em;
-}
+}*/
 
 div.messages /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */ {
 }
@@ -361,4 +361,9 @@ color: #717173;
 
 .search-results .search-info {
 color:#777;
+}
+
+.results
+{
+  width: 716px;
 }
