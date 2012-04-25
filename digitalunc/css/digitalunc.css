@@ -107,3 +107,17 @@ color: #fff;
   width: 716px;
 }
 
+
+/* Solr results */
+
+.results div.metadata
+{
+  width: 605px;
+}
+
+.results div.metadata ul li.fulltext
+{
+  word-wrap: break-word;
+}
+
+

@@ -1,51 +1,46 @@
 /* Header */
 
 #headercontent-inner {
-    height: 82px;
+background: url(../images/header.png) no-repeat 0 0 #00234B;
 }
 
-#headercontent-inner {
-background: url(../images/header.png) 0 0 solid #ffce00;
-}
-
-#headercontent-wrapper .section {
-margin-bottom: 2px;
-border-bottom: 1px solid #ddd;
-}
-
-#site-name {
-    font-size: 450%;		
-    line-height: 100%;
-}
-
-#site-slogan {
-margin-top: -3px;
+#headercontent-wrapper .HeaderLeft {
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 #logo {
     border-right: 0px solid #686C71;
 }
 
-#headercontent-wrapper .HeaderLeft {
-    padding-bottom: 15px;
-    padding-top: 15px;
+#headercontent-wrapper .section {
+margin-bottom: 2px;
+border-bottom: 1px solid #B8B6B8;
+}
+
+#site-name {
+    line-height: 80%;
+}
+
+#site-slogan {
+margin-top: -3px;
 }
 
 #header {
-color: #161616;
+color: #FCCC00;
 }
 
 #header a:link {
-    color: #ffce00;
+    color: #FCCC00;
 }
 #header a:visited {
-    color: #ffce00;
+    color: #FCCC00;
 }
 #header a:hover, #header a:focus {
-    color: #ffce00;
+    color: #FCCC00;
 }
 #header a:active {
-    color: #ffce00; 
+    color: #FCCC00;
 }
 
 /* Navbar */
@@ -109,13 +104,20 @@ height: 282px;
 .region-sidebar-second .block h2.title, 
 div.admin-panel h3,
 .whats-new h2.pane-title {
-background-color: #00234c;
+background-color: #00234b;
 color: #ffce00;
 }
 
 .collection-list h2.pane-title {
-background-color: #00234c;
+background-color: #00234b;
 color: #ffce00;
+}
+
+/* Solr results */
+
+.results div.metadata
+{
+  width: 605px;
 }
 
 
