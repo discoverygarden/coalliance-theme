@@ -10,9 +10,8 @@ border-bottom: 1px solid #B8B6B8;
 }
 
 #site-name {
-padding-top: 1.3%;
-font-size:225%;
-	font-weight:500;
+    line-height: 80%;
+    font-size: 22px;
 }
 
 #site-slogan {
@@ -23,12 +22,14 @@ margin-top: -3px;
 color: #161616;
 }
 
-#header a:link {
+/* #header a:link {
     color: #161616;
 }
+                        Keeping the originals, unchanged, just in case!
 #header a:visited {
     color: #161616;
-}
+} */
+
 #header a:hover, #header a:focus {
     color: #161616;
 }
@@ -38,28 +39,15 @@ color: #161616;
 
 /* Navbar */
 
-/*
 #navbar-wrapper {
 background: url(../images/navbar-right.png) repeat-x 0 0 #B8B6B8;
 height: 27px;
 border-bottom: 1px solid #B8B6B8;
-margin-top: 2px;
 }
 
 #navbar-wrapper .column.NavbarLeft {
 background: url(../images/navbar-left.png) repeat-x scroll 0 0 transparent;
 height: 27px
-}
-*/
-#navbar-wrapper {
-background: #292C33;
-height: 28px;
-border-bottom: 1px solid #B8B6B8;
-}
-
-#navbar-wrapper .column.NavbarLeft {
-background:  #292C33;
-height: 28px;
 }
 
 #nav ul.menu  li.active-trail,
@@ -70,7 +58,7 @@ height: 28px;
 #superfish ul.menu  li:hover, 
 #superfish .menu li li:hover, 
 #superfish .menu li li li:hover {
-        background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
+        background: url(../images/nav-hv7.png) repeat 0 0 transparent !important;
 }
 
 #navigation {
@@ -92,7 +80,8 @@ color: #fff;
 }
 #navigation a.active {
     color: #161616;
-    background: url(../images/nav-hv.png) repeat-x 0 0 transparent;
+    background: url(../images/nav-hv7.png) repeat-x 0 0 transparent;
+
 }
 
 
@@ -110,11 +99,75 @@ height: 282px;
 .region-sidebar-second .block h2.title, 
 div.admin-panel h3,
 .whats-new h2.pane-title {
-background-color: #f7e59d;
-color: #292c33;
+background-color: #yellow;
+color: #gray;
 }
 
-.collection-list h2.pane-title {
-background-color: #292c33;
+.panel-panel .collection-list h2.pane-title {
+background-color: #gray
 }
 
+/* Manually Fixing Wonky Spacing Issues */
+
+.panels-flexible-row-last {
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.panels-flexible-column-3-3 {
+    margin-left: 1px;
+}
+
+.column.HeaderLeft {
+    margin-bottom: -10px;
+}
+
+div.pane-content {
+    padding: 5px;
+    padding-right: 10px;
+}
+
+div.pane-content p {
+    text-align: justify;
+    margin-top: 0px;
+
+}
+
+img.spotimg    {
+    margin-right: 12px;
+    border: 1px solid #B8B6B8;
+}
+
+p.newbox {
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.collections {
+    list-style-type:none;
+    margin-top: -5px;
+    padding-top: 0px;
+}
+
+/* Tweaking Colors */
+
+body {
+    background-color: #BBCEE0;
+}
+
+.whats-new h2.pane-title {
+    background-color: #718ba2 !important;
+}
+
+#header a:link {
+    color: #fff !important;
+}
+
+#header a:visited {
+    color: #fff !important;
+}
+
+#content-area {
+    background-color: #E6E7E8 !important;
+    margin-bottom: -10px;
+}

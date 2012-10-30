@@ -12,6 +12,13 @@
     width: 215px;
 }
 
+.whats-new ul li {
+    background-color: #FFFFFF;
+    margin:0px 15px; 
+    padding:5px 0px;  
+    list-style:circle; 
+}
+
 #homepage_intro {
     background-color: #e6e7e8;
     background-image: url("../images/unc-feature-e6e7e8.png");

@@ -2,8 +2,8 @@
 
 
   ; The name and description of the theme used on the admin/build/themes page.
-name        = coalliance main
-description = This is a table-less Zen sub-theme.
+name        = Coalliance - cdpsm
+description = This is a table-less fixed-width Zen sub-sub-theme based on coalliance.  
 
   ; The screenshot used on the admin/build/themes page.
 screenshot = screenshot.png
@@ -14,7 +14,7 @@ screenshot = screenshot.png
   ; required fields for a Zen sub-theme. The "engine" field is not used in a
   ; sub-theme since the engine is inherited from its base theme.
 core       = 6.x
-base theme = zen
+base theme = coalliance
 
   ; This section adds CSS files to your theme. The media type is specified in
   ; the brackets. Typical CSS media types include "all", "screen", "print", and
@@ -26,49 +26,45 @@ base theme = zen
   ; an /extremely/ useful feature. See the excellent Drupal 6 Theme Guide at
   ; http://drupal.org/node/171209 for more details.
   
-  ; This is the base subtheme for zen, use the sub sub theme called designer
-  ; to change the look, and/or use it as a base to create new sub sub themes or sub sub sub themes
+  ; This is the designer sub sub theme for coalliance, use this as a base to create
+  ; sub sub sub themes, this one in particular is good for psd to drupal themes, 
+  ; much like islandarchives, islandimagined, islandvoices, etc
   
-  ; combined css - blocks.css and block-editing.css, block-editing-rtl has been changed to blocks-rtl.css
-  ; views-styles.css and panels-styles.css have been commented out because they are empty
-  ; wireframes.css has been commented out for now, this may come back
-  ; tabs.css has been commented out, i prefer the standard styling for now
-  
-stylesheets[all][]   = css/html-reset.css
+; stylesheets[all][]   = css/html-reset.css
 ; stylesheets[all][]   = css/wireframes.css
-stylesheets[all][]   = css/layout-fixed.css
-stylesheets[all][]   = css/page-backgrounds.css
+; stylesheets[all][]   = css/layout-fixed.css
+; stylesheets[all][]   = css/page-backgrounds.css
 ; stylesheets[all][]   = css/tabs.css
-stylesheets[all][]   = css/messages.css
-stylesheets[all][]   = css/pages.css
-; stylesheets[all][]   = css/block-editing.css 
-stylesheets[all][]   = css/blocks.css
-stylesheets[all][]   = css/navigation.css
-stylesheets[all][]   = css/panels-styles.css
+; stylesheets[all][]   = css/messages.css
+; stylesheets[all][]   = css/pages.css
+; stylesheets[all][]   = css/block-editing.css
+; stylesheets[all][]   = css/blocks.css
+; stylesheets[all][]   = css/navigation.css
+; stylesheets[all][]   = css/panels-styles.css
 ; stylesheets[all][]   = css/views-styles.css
-stylesheets[all][]   = css/nodes.css
-stylesheets[all][]   = css/comments.css
-stylesheets[all][]   = css/forms.css
-stylesheets[all][]   = css/fields.css
-stylesheets[print][] = css/print.css
-stylesheets[all][]   = css/superfish.css
-stylesheets[all][]   = css/islandora.css
+; stylesheets[all][]   = css/nodes.css
+; stylesheets[all][]   = css/comments.css
+; stylesheets[all][]   = css/forms.css
+; stylesheets[all][]   = css/fields.css
+; stylesheets[print][] = css/print.css
+; stylesheets[all][]   = css/superfish.css
+stylesheets[all][]   = css/cdpsm.css
+; stylesheets[all][]   = css/elegant.css
+; stylesheets[all][]   = css/islandvoices.css
+; stylesheets[all][]   = css/designer.css
+; stylesheets[all][]   = css/custom.css
 ; stylesheets[handheld][] = css/mobile.css
 ; stylesheets[only screen and (max-device-width: 480px)][] = css/iphone.css
 
-  ; Set the conditional stylesheets that are processed by IE.
-conditional-stylesheets[if lte IE 6][all][] = css/ie6.css
-conditional-stylesheets[if lte IE 7][all][] = css/ie7.css
-conditional-stylesheets[if IE][all][]       = css/ie.css
+; Set the conditional stylesheets that are processed by IE.
+; conditional-stylesheets[if lte IE 6][all][] = css/ie6.css
+; conditional-stylesheets[if lte IE 7][all][] = css/ie7.css
+; conditional-stylesheets[if IE][all][]       = css/ie.css
 
   ; Optionally add some JavaScripts to your theme.
-;scripts[] = js/script.js
-;scripts[] = js/jquery_example/jquery.example.min.js
-;scripts[] = js/searchtext.js  
-scripts[] = js/superfish.js
-scripts[] = js/hoverIntent.js
-scripts[] = js/cursorFocus.js
-;scripts[if IE 6] = js/jquery.pngFix.js
+; scripts[] = js/script.js
+; scripts[] = js/superfish.js
+; scripts[] = js/hoverIntent.js
 
   ; The regions defined in Zen's default page.tpl.php file.  The name in
   ; brackets is the name of the variable in the page.tpl.php file, (e.g.
@@ -138,11 +134,11 @@ features[] = primary_links
 features[] = secondary_links
 
   ; Set the default settings to be used in theme-settings.php
-settings[zen_block_editing]        = 1
-settings[zen_breadcrumb]           = yes
-settings[zen_breadcrumb_separator] = ' › '
-settings[zen_breadcrumb_home]      = 1
-settings[zen_breadcrumb_trailing]  = 1
-settings[zen_breadcrumb_title]     = 0
-settings[zen_rebuild_registry]     = 1
-settings[zen_wireframes]           = 0
+;settings[zen_block_editing]        = 1
+;settings[zen_breadcrumb]           = yes
+;settings[zen_breadcrumb_separator] = ' › '
+;settings[zen_breadcrumb_home]      = 1
+;settings[zen_breadcrumb_trailing]  = 1
+;settings[zen_breadcrumb_title]     = 0
+;settings[zen_rebuild_registry]     = 1
+;settings[zen_wireframes]           = 0

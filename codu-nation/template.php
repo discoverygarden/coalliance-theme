@@ -21,13 +21,13 @@
  *   this, we have to override the theme function. You have to first find the
  *   theme function that generates the output, and then "catch" it and modify it
  *   here. The easiest way to do it is to copy the original function in its
- *   entirety and paste it here, changing the prefix from theme_ to mscdr_.
+ *   entirety and paste it here, changing the prefix from theme_ to demo_.
  *   For example:
  *
  *     original: theme_breadcrumb()
- *     theme override: mscdr_breadcrumb()
+ *     theme override: demo_breadcrumb()
  *
- *   where mscdr is the name of your sub-theme. For example, the
+ *   where demo is the name of your sub-theme. For example, the
  *   zen_classic theme would define a zen_classic_breadcrumb() function.
  *
  *   If you would like to override any of the theme functions used in Zen core,
@@ -39,7 +39,7 @@
  *   For more information, please visit the Theme Developer's Guide on
  *   Drupal.org: http://drupal.org/node/173880
  *
- * CREATE OR MODIFY VARIABLES FOR YOUR THEMEmscdr
+ * CREATE OR MODIFY VARIABLES FOR YOUR THEMEdemo
  *
  *   Each tpl.php template file has several variables which hold various pieces
  *   of content. You can modify those variables (or add new ones) before they
@@ -66,7 +66,7 @@
 /**
  * Implementation of HOOK_theme().
  */
-function cmudr_theme(&$existing, $type, $theme, $path) {
+function demo_theme(&$existing, $type, $theme, $path) {
   $hooks = coalliance_theme($existing, $type, $theme, $path);
   // Add your theme hooks like this:
   /*
@@ -85,7 +85,7 @@ function cmudr_theme(&$existing, $type, $theme, $path) {
  *   The name of the template being rendered (name of the .tpl.php file.)
  */
 /* -- Delete this line if you want to use this function
-function cmudr_preprocess(&$vars, $hook) {
+function demo_preprocess(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -99,8 +99,8 @@ function cmudr_preprocess(&$vars, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function cmudr_preprocess_page(&$vars, $hook) {
-   $vars['logo'] = $vars['cmudr_logo'] ? l($vars['cmudr_logo'], '<http://www.coloradomesa.edu/cmulibrary>', array('attributes' => array('rel' => 'home'), 'title' => t('Library'), 'html' => TRUE)) : '';
+function demo_preprocess_page(&$vars, $hook) {
+  $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
 
@@ -113,11 +113,11 @@ function cmudr_preprocess_page(&$vars, $hook) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function cmudr_preprocess_node(&$vars, $hook) {
+function demo_preprocess_node(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 
   // Optionally, run node-type-specific preprocess functions, like
-  // cmudr_preprocess_node_page() or cmudr_preprocess_node_story().
+  // demo_preprocess_node_page() or demo_preprocess_node_story().
   $function = __FUNCTION__ . '_' . $vars['node']->type;
   if (function_exists($function)) {
     $function($vars, $hook);
@@ -134,7 +134,7 @@ function cmudr_preprocess_node(&$vars, $hook) {
  *   The name of the template being rendered ("comment" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function cmudr_preprocess_comment(&$vars, $hook) {
+function demo_preprocess_comment(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -148,7 +148,7 @@ function cmudr_preprocess_comment(&$vars, $hook) {
  *   The name of the template being rendered ("block" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function cmudr_preprocess_block(&$vars, $hook) {
+function demo_preprocess_block(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */

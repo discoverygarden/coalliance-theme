@@ -367,3 +367,17 @@ color:#777;
 {
   width: 716px;
 }
+
+div.feed-item-body ul {
+     list-style: none outside none;
+     margin: 10px 0pt 0pt;
+     padding: 0pt;
+}
+
+div.feed-item-body td {
+     vertical-align: top !important;
+}
+
+div.feed-item-body div.metadata {
+     width:605px;
+}

@@ -31,20 +31,26 @@ margin-top: -3px;
 }
 
 #header {
-color: #161616;
+color: #FFFFFF;
+}
+
+#header a {
+    font-weight:600;
 }
 
 #header a:link {
-    color: #161616;
+    color: #FFFFFF;
 }
 #header a:visited {
-    color: #161616;
+    color: #FFFFFF;
 }
 #header a:hover, #header a:focus {
-    color: #161616;
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 #header a:active {
-    color: #161616;
+    color: #FFFFFF;
+text-decoration: underline;
 }
 
 /* Navbar */
@@ -108,15 +114,15 @@ height: 282px;
 .region-sidebar-second .block h2.title, 
 div.admin-panel h3,
 .whats-new h2.pane-title {
-background-color: #fcfbf7;
-color: #79abe0;
+background-color: #f7f6f2;
+color: #8AA795 
 }
 
 .collection-list h2.pane-title {
-background-color: #79abe0;
+background-color: #8AA795 
 }
 
 #homepage_panel .whats-new {
-    background-color: #e6e7e8;
+    background-color: #FFFFFF;
 }
 

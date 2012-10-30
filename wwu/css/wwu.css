@@ -10,7 +10,8 @@ border-bottom: 1px solid #B8B6B8;
 }
 
 #site-name {
-    line-height: 80%;
+   font-size: 200%;		
+   line-height: 100%;
 }
 
 #site-slogan {
@@ -18,20 +19,20 @@ margin-top: -3px;
 }
 
 #header {
-color: #161616;
+color: #000000;
 }
 
 #header a:link {
-    color: #161616;
+    color: #000000;
 }
 #header a:visited {
-    color: #161616;
+    color: #000000;
 }
 #header a:hover, #header a:focus {
-    color: #161616;
+    color: #000000;
 }
 #header a:active {
-    color: #161616;
+    color: #000000;
 }
 
 /* Navbar */
@@ -40,6 +41,14 @@ color: #161616;
 background: url(../images/navbar-right.png) repeat-x 0 0 #B8B6B8;
 height: 27px;
 border-bottom: 1px solid #B8B6B8;
+margin-top: -8px;
+}
+
+#logo {
+     border-right: 0pt;
+     float: left;
+     margin: 0pt;
+     padding: 0pt 15px 0pt 20px;
 }
 
 #navbar-wrapper .column.NavbarLeft {
@@ -95,12 +104,16 @@ height: 282px;
 .region-sidebar-second .block h2.title, 
 div.admin-panel h3,
 .whats-new h2.pane-title {
-background-color: #yellow;
-color: #black;
+background-color: #fcfbf7;
+color: #79abe0;
 }
 
-.panel-panel .collection-list h2.pane-title {
-background-color: #black;
+.collection-list h2.pane-title {
+background-color: #79abe0;
+}
+
+#homepage_panel .whats-new {
+    background-color: #e6e7e8;
 }
 
 

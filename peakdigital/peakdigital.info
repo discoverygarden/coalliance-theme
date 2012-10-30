@@ -65,6 +65,7 @@ stylesheets[all][]   = css/peakdigital.css
 ; scripts[] = js/script.js
 ; scripts[] = js/superfish.js
 ; scripts[] = js/hoverIntent.js
+scripts[] = js/cursorFocus.js
 
 
   ; The regions defined in Zen's default page.tpl.php file.  The name in
